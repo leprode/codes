@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	costsInOneDay := [][]float32{{7, 1}, {1, 7}}
-	// costsInOneDay := [][]float32{{5}, {5}}
+	// costsInOneDay := [][]float32{{7, 1}, {1, 7}}
+	costsInOneDay := [][]float32{{5}, {5}}
 	dayNum := 21
 	displayBeforeCal(costsInOneDay, dayNum)
 
@@ -86,7 +86,7 @@ func getNewCutCost(costsInOneDay [][]float32, dayNum int) float32 {
 			for i, v1 := range v0 {
 				v11 := v1 * getNowDiscount(cost)
 				if i == 1 {
-					v11 = v1 - 2
+					v11 = v11 - 2
 				}
 				if v11 < 0 {
 					v11 = 0
