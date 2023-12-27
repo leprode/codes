@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	// costsInOneDay := [][]float32{{7, 1}, {1, 7}}
-	costsInOneDay := [][]float32{{5}, {5}}
-	dayNum := 21
+	costsInOneDay := [][]float32{{7, 1}, {1, 7}}
+	// costsInOneDay := [][]float32{{5}, {5}}
+	dayNum := 22
 	displayBeforeCal(costsInOneDay, dayNum)
 
 	notCutPrice := getNoCutCost(costsInOneDay, dayNum)
