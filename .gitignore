@@ -1,1 +1,15 @@
+.vscode/
+
 pdfOps/*.pdf
+
+cuda-test/1/hello
+cuda-test/2/sum
+cuda-test/2/sumOnGPU
+cuda-test/2/sumMatrixOnGPU-2D-grid-2D-block
+cuda-test/2/checkDeviceInfo
+cuda-test/3/reduceNeighbored
+cuda-test/3/simpleDivergence
+cuda-test/3/simpleDivergence-O1
+cuda-test/3/simpleDivergence-O3
+cuda-test/3/nestedhelloworld
+cuda-test/4/globalVariable
