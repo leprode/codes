@@ -13,3 +13,5 @@ cuda-test/3/simpleDivergence-O1
 cuda-test/3/simpleDivergence-O3
 cuda-test/3/nestedhelloworld
 cuda-test/4/globalVariable
+cuda-test/version/version
+cuda-test/version/version.o
