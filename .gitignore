@@ -15,3 +15,6 @@ cuda-test/3/nestedhelloworld
 cuda-test/4/globalVariable
 cuda-test/version/version
 cuda-test/version/version.o
+
+cuda-test/nccl/singleProcess
+cuda-test/nccl/example2
