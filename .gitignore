@@ -18,3 +18,5 @@ cuda-test/version/version.o
 
 cuda-test/nccl/singleProcess
 cuda-test/nccl/example2
+
+linux-test/limit
